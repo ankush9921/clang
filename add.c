@@ -2,15 +2,12 @@
 
 int main()	// main is built in function which tells that to convert the code into bianary
 {
-	int num,  ans, i;
-	scanf("%d",&num);
+	int num1,num2,num3,ans;
 	
-	for(i=1;i<=num;i++)
-	{
-		ans=i*i*i;
-		printf("%d\n",ans);
-		
-	}
+	num1=20, num2=20, num3=30;
+	ans= num1+num2+num3;
+	
+	printf("%d",ans);
 	
 	return 0;
 } 
